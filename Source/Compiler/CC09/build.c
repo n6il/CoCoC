@@ -10,7 +10,7 @@
 
 #include "cj.h"
 
-static elsize(prim);
+static elsize(expnode **prim);
 
 
 expnode *

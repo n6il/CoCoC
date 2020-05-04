@@ -7,9 +7,9 @@
 */
 
 #include "cj.h"
-static ilist(type,ptr,list,level);
-static defobject(type);
-static datdef(p,type);
+static ilist(int type, register symnode *ptr, register dimnode *list, int level);
+static defobject(register int type);
+static datdef(register int *p, int type);
 static iskip();
 extern direct int stringlen;
 direct int datstring;
