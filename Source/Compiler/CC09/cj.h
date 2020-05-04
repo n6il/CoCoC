@@ -1,3 +1,7 @@
+#ifdef __APPLE__
+#define unix
+#endif
+
 #ifdef unix
 # define getline UNIX_getline
 # include <errno.h>

@@ -2,7 +2,8 @@ CFLAGS	= -g -m32 -DUNIX -DPTREE -DDEBUG -DPROF -DREGCONTS \
 	-Wall -Wno-incompatible-pointer-types -Wno-implicit-int \
 	-Wno-implicit-function-declaration -Wno-parentheses \
 	-Wno-return-type \
-	-DCKEYSFILE=\"$(HOME)/.ckeys\"
+	-DCKEYSFILE=\"$(HOME)/.ckeys\" \
+	-Dunix
 
 LDFLAGS = -m32
 
